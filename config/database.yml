@@ -24,6 +24,6 @@ production:
   username: svuiubgkuyxbdx
   password:  kfi1fETG3OUyMCqY9K05VrP7-G
   
-  #  use heroku pg:reset --app gotcardgame DATABASE
-  #  and then heroku run rake db:migrate --app gotcardgame
-  #  and finally heroku run rake db:seed --app gotcardgame
+  #  use heroku pg:reset --app xrobotsattack DATABASE
+  #  and then heroku run rake db:migrate --app xrobotsattack
+  #  and finally heroku run rake db:seed --app xrobotsattack
