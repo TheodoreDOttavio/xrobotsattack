@@ -20,12 +20,10 @@ production:
   adapter: postgresql
   encoding: unicode
   pool: 5
-  database: gotcardgame_production
-  username: ylmnmjkjritjwj
-  password: U0FvzZvoOUDTfXLBnfymlafCqs
+  database: heroku-postgres-a6045d4b_production
+  username: mkejianrqfbvdc
+  password: 6qe6W2SQegbUlOnIXJ2eB57xVC
   
   #  use heroku pg:reset --app gotcardgame DATABASE
   #  and then heroku run rake db:migrate --app gotcardgame
   #  and finally heroku run rake db:seed --app gotcardgame
-  
-  #  database - dfunqi5h7tf6t9
