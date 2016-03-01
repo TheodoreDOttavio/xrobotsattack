@@ -3,6 +3,6 @@ Rails.application.routes.draw do
    root 'homepage#index'
 
    #resources :scores
-   match '/newscore', to: 'highscores#index', via: 'get'
-   match '/highscorelist', to: 'highscores#gamereader', via: 'get'
+   match '/score', to: 'highscores#index', via: 'get'
+   #match '/score', to: 'highscores#gamereader', via: 'get'
 end

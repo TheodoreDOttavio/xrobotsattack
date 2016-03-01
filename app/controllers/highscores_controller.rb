@@ -1,25 +1,14 @@
 class HighscoresController < ApplicationController
-  #before_action :set_score, only: [:show, :edit, :update, :destroy]
-  
+ 
   def index
-    newscore = params[:score]
-    newplayer = params[:player]
-    
-    @score = Score.new(score_params)
-    @score[:score] = newscore
-    @score[:player] = newplayer
-    @score.save
-  end
-  
-  
-  def gamereader
-    @scores = Score.order(:score).where(:player != nil)
-  end
-  
-  
-  private
-
-    def score_params
-      params.require(:score).permit(:player, :score)
+    if params[:score].nil? != true then
+      if params[:player].length >= 2 and params[:score] != "0" then
+        cleanedparams = {:score => params[:score].to_i, :player => params[:player] }
+        @score = Score.new(cleanedparams)
+        @score.save
+      end
     end
+    @showscores = Score.all
+  end
+
 end
