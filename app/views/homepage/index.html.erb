@@ -1,11 +1,32 @@
-<div class="center hero-unit">
-<h1>X Robots Attack!</h1>
-<h2>
-  A simple text based strategy game that will entertain you for minutes!
-</h2>
+<div class="center hero-unit" bgcolor="black">
 
-
-Download here
-
+<div align="center">
+  <div class="well well-sm" style="width: 50%;">
+  	<%= image_tag("background.png") %>
+    <h5 color = 'white'>Destroy the X Robots by making them crash into each other or crash into a pile of radioactive debris</h5>
+    <%= link_to "Download for Windows", pc_path, class: "btn btn-large btn-primary" %>
+  </div>
+  
+  <div class="well well-sm" style="width: 50%;">
+    <h3>Movement</h3>
+    <div align="left">
+    <h5>The "O" character has letters around it indicating which direction you can move.
+    <br>After you move one space, every X Robot (the yellow X characters) will move towards you.
+    <br>Watch them disapear when they move into the radioactive debris (the red # characters)
+    </h5></div>
+    
+    <h3>Teleportation</h3>
+    <div align="left">
+    <h5>Type a 'T' and you will be placed soameplace new... that might also kill you...
+    </h5></div>
+    
+    <h3>The Ultimate Screwdriver</h3>
+    <div align="left">
+    <h5>If an X Robot is next to you you may use the screwdriver and cause their internal power source to explode.
+    <br>The screw driver will turn up to 8 X robots into rubble if you are sorrounded
+    <br>The screwdriver works only once per screen, choose wisely!
+    </h5></div>
+  </div>
+</div>
 
 </div>
