@@ -20,9 +20,9 @@ production:
   adapter: postgresql
   encoding: unicode
   pool: 5
-  database: heroku-postgres-a6045d4b_production
-  username: mkejianrqfbvdc
-  password: 6qe6W2SQegbUlOnIXJ2eB57xVC
+  database: xrobotsattack_production
+  username: svuiubgkuyxbdx
+  password:  kfi1fETG3OUyMCqY9K05VrP7-G
   
   #  use heroku pg:reset --app gotcardgame DATABASE
   #  and then heroku run rake db:migrate --app gotcardgame
