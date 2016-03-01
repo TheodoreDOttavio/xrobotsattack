@@ -3,7 +3,7 @@ class HomepageController < ApplicationController
   end
   
   def downloadpc
-    send_file 'app/product/xrobotattack.zip', filename: 'xrobotattack.zip',
+    send_file 'app/product/xrobotsattack.zip', filename: 'xrobotsattack.zip',
        type: 'application/zip',
        disposition: 'attachment'
   end
