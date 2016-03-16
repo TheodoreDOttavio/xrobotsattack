@@ -7,7 +7,7 @@ class HomepageController < ApplicationController
      #  type: 'application/zip',
        
     send_file 'app/product/xrobots.exe', filename: 'xrobots.exe',
-       type: 'application/zip',
+       type: 'application',
        disposition: 'attachment'
   end
 end
